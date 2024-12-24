@@ -18,5 +18,5 @@ nursery = { level = "deny", priority = -4 }
 [dependencies]
 beetle_bits = "0.2.5"
 image = "0.25.5"
-num = "0.4.3"
+num-complex = "0.4.6"
 rand = "0.8.5"
