@@ -1,0 +1,22 @@
+[package]
+name = "mandelbrot-set"
+version = "0.1.0"
+edition = "2021"
+authors = [
+    "Mearkatz <drquinsey@gmail.com>",
+]
+description = ""
+
+[lints.rust]
+unsafe_code = { level = "deny", priority = -1 }
+
+[lints.clippy]
+enum_glob_use = { level = "deny", priority = -2 }
+pedantic = { level = "deny", priority = -3 }
+nursery = { level = "deny", priority = -4 }
+
+[dependencies]
+beetle_bits = "0.2.5"
+image = "0.25.5"
+num = "0.4.3"
+rand = "0.8.5"
